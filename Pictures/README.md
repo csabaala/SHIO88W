@@ -12,6 +12,8 @@ Fits into home distributions boxes:
 
 <img src="SHIO88W_2.jpg" alt="drawing" width="700"/>
 
+<img src="SHIO88W_3.jpg" alt="drawing" width="700"/>
+
 ## SHADRS485
 
 <img src="SHADRS485.jpg" alt="drawing" width="550"/>
