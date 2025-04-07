@@ -8,7 +8,7 @@ The SMD components sitting on the front side of the SHIO88W board manufactured b
 
 <img src="SHIO88W_1.jpg" alt="drawing" width="700"/>
 
-Fits into home distributions boxes:
+Fits into home distribution boxes:
 
 <img src="SHIO88W_2.jpg" alt="drawing" width="700"/>
 

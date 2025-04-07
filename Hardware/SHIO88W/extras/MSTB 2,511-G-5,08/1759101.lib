@@ -1,0 +1,43 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 1759101
+#
+DEF 1759101 J 0 40 Y Y 1 L N
+F0 "J" -270 600 50 H V L BNN
+F1 "1759101" -250 -700 50 H V L BNN
+F2 "PHOENIX_1759101" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "21.04.2021" 0 0 50 H I L BNN "PARTREV"
+F5 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F6 "Phoenix Contact" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -225 487 -163 512 0 0 0 F
+S -225 387 -163 412 0 0 0 F
+S -225 287 -163 312 0 0 0 F
+S -225 187 -163 212 0 0 0 F
+S -225 87 -163 112 0 0 0 F
+S -225 -12 -163 12 0 0 0 F
+S -225 -112 -163 -87 0 0 0 F
+S -225 -212 -163 -187 0 0 0 F
+S -225 -312 -163 -287 0 0 0 F
+S -225 -412 -163 -387 0 0 0 F
+S -225 -512 -163 -487 0 0 0 F
+S -250 -600 250 600 0 0 10 f
+X 01 01 -400 500 200 R 40 40 0 0 P 
+X 02 02 -400 400 200 R 40 40 0 0 P 
+X 03 03 -400 300 200 R 40 40 0 0 P 
+X 04 04 -400 200 200 R 40 40 0 0 P 
+X 05 05 -400 100 200 R 40 40 0 0 P 
+X 06 06 -400 0 200 R 40 40 0 0 P 
+X 07 07 -400 -100 200 R 40 40 0 0 P 
+X 08 08 -400 -200 200 R 40 40 0 0 P 
+X 09 09 -400 -300 200 R 40 40 0 0 P 
+X 10 10 -400 -400 200 R 40 40 0 0 P 
+X 11 11 -400 -500 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

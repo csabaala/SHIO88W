@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 1759020
+#
+DEF 1759020 J 0 40 Y Y 1 L N
+F0 "J" -270 200 50 H V L BNN
+F1 "1759020" -250 -300 50 H V L BNN
+F2 "PHOENIX_1759020" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "21.04.2021" 0 0 50 H I L BNN "PARTREV"
+F5 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F6 "Phoenix Contact" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -225 87 -163 112 0 0 0 F
+S -225 -12 -163 12 0 0 0 F
+S -225 -112 -163 -87 0 0 0 F
+S -250 -200 250 200 0 0 10 f
+X 01 01 -400 100 200 R 40 40 0 0 P 
+X 02 02 -400 0 200 R 40 40 0 0 P 
+X 03 03 -400 -100 200 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

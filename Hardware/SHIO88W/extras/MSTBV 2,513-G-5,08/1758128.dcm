@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1758128
+D PCB header, nominal cross section: 2.5 mm?, color: green, nominal current: 12 A, rated voltage (III/2): 320 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 13, Number of rows: 1, Number of positions per row: 13, number of connections: 13, product range: MSTBV 2,5/..-G, pitch: 5.08 mm, mounting: Wave soldering, pin layout: Linear pinning, solder pin [P]: 3.9 mm, Stecksystem: CLASSIC COMBICON, Locking: without, type of packaging: packed in cardboard
+K
+F http://www.phoenixcontact.com/de/produkte/1758128/pdf
+$ENDCMP
+#
+#End Doc Library
