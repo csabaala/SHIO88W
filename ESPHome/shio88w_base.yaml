@@ -1,0 +1,187 @@
+esphome:
+  name: shio88w-base
+  on_boot:
+    - priority: 600
+      then:
+        - switch.turn_on: uid
+        - delay: 500ms
+        - switch.turn_off: uid
+    - priority: 250
+      then:
+        - switch.turn_on: uid
+        - delay: 500ms
+        - switch.turn_off: uid
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+  level: DEBUG
+  baud_rate: 0
+
+# Enable Home Assistant API
+api:
+  password: ""
+  reboot_timeout: 0s
+
+ota:
+  - platform: esphome
+    password: ""
+
+wifi:
+  ssid: "ssid"
+  password: "password"
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "SHIO88W Fallback Hotspot"
+    password: "esphome1234"
+  #use_address: 192.168.1.103
+
+captive_portal:
+
+web_server:
+  version: 3
+# Activates prometheus /metrics endpoint
+prometheus:
+  
+switch:
+  - platform: gpio
+    id: O1
+    name: "O1"
+    pin: 4
+  - platform: gpio
+    id: O2
+    name: "O2"
+    pin: 16
+  - platform: gpio
+    id: O3
+    name: "O3"
+    pin: 17
+  - platform: gpio
+    id: O4
+    name: "O4"
+    pin: 18
+  - platform: gpio
+    id: O5
+    name: "O5"
+    pin: 19
+  - platform: gpio
+    id: O6
+    name: "O6"
+    pin: 21
+  - platform: gpio
+    id: O7
+    name: "O7"
+    pin: 22
+  - platform: gpio
+    id: O8
+    name: "O8"
+    pin: 23
+  - platform: gpio
+    id: uid
+    name: "UID"
+    pin: 12
+
+binary_sensor:
+#inputs on terminal blocks
+  - platform: gpio
+    id: I1
+    name: "I1"
+    pin:
+      number: 14
+      inverted: true
+      mode:
+        input: true
+        pullup: true
+  - platform: gpio
+    id: I2
+    name: "I2"
+    pin:
+      number: 27
+      inverted: true
+      mode:
+        input: true
+        pullup: true
+  - platform: gpio
+    id: I3
+    name: "I3"
+    pin:
+      number: 26
+      inverted: true
+      mode:
+        input: true
+        pullup: true
+  - platform: gpio
+    id: I4
+    name: "I4"
+    pin:
+      number: 25
+      inverted: true
+      mode:
+        input: true
+        pullup: true
+  - platform: gpio
+    id: I5
+    name: "I5"
+    pin:
+      number: 35
+      inverted: true
+      mode:
+        input: true
+  - platform: gpio
+    id: I6
+    name: "I6"
+    pin:
+      number: 34
+      inverted: true
+      mode:
+        input: true
+  - platform: gpio
+    id: I7
+    name: "I7"
+    pin:
+      number: 13
+      inverted: true
+      mode:
+        input: true
+        pullup: true
+  - platform: gpio
+    id: I8
+    name: "I8"
+    pin:
+      number: 5
+      inverted: true
+      mode:
+        input: true
+        pullup: true
+#buttons
+  - platform: gpio
+    name: "BTN BOOT"
+    pin:
+      number: 0
+      inverted: true
+      mode:
+        input: true
+
+sensor:
+  - platform: wifi_signal
+    name: "WiFi Signal"
+    update_interval: 60s
+  - platform: dht
+    pin: 15
+    model: AM2302
+    temperature:
+      name: "Temp"
+      id: temp
+    humidity:
+      name: "Humidity"
+      id: hum
+    update_interval: 60s
+
+uart:
+  baud_rate: 9600
+  tx_pin: 1
+  rx_pin: 3
