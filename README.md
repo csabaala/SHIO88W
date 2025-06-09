@@ -2,11 +2,9 @@
 
 ESP32 based DIN rail mount IO board.
 
-More [Pictures](/Pictures#assembled-boards) and [Video](/ESPHome) of the assembled board and extensions.
+More [Pictures](/Pictures#assembled-boards) and [Video](https://youtu.be/fpFCvI0ayuA) of the assembled board and extensions.
 
 Example [ESPHome configs](/ESPHome)
-
-View [3D model](https://3dviewer.net/#model=https://dl.dropbox.com/scl/fi/ps5aiib8u3sv6k7nb4t2t/SHIO88W.wrl?rlkey=a4zxlte14uyzpbyriw4eh9wyb&st=gwqd6p7e&dl=0)
 
 ## Features
 
@@ -16,6 +14,8 @@ View [3D model](https://3dviewer.net/#model=https://dl.dropbox.com/scl/fi/ps5aii
 * LEDs for output and input status
 * 1 sensor input (ds18b20, dht)
 * 14 pin IDC connector for direct GPIO access
+
+View [3D model](https://3dviewer.net/#model=https://dl.dropbox.com/scl/fi/ps5aiib8u3sv6k7nb4t2t/SHIO88W.wrl?rlkey=a4zxlte14uyzpbyriw4eh9wyb&st=gwqd6p7e&dl=0)
 
 <img src="Pictures/SHIO88W.png" alt="drawing" width="380"/>
 
