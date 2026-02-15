@@ -2,7 +2,6 @@
 /production/
 /fabrication-toolkit-options.json
 /fp-info-cache
-/fp-lib-table
 
 *.000
 *.bak
